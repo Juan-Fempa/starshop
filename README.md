@@ -333,8 +333,8 @@ composer require debug
 ### ¡Hola bin/console!
 
 ```shell
-php bin/console debug:router
-php bin/console debug:twig
+symfony console debug:router
+symfony console debug:twig
 ```
 
 ## 08. Creación de rutas API JSON
@@ -509,7 +509,7 @@ A veces también oirás que estos servicios están organizados en un gran objeto
 Busca tu terminal y ejecuta:
 
 ```shell
-bin/console debug:container
+symfony console debug:container
 ```
 
 ### Los bundles proporcionan servicios
@@ -523,7 +523,7 @@ Y aunque hay muchos servicios en esta lista, la gran mayoría son objetos de ser
 En su lugar, ejecuta un comando relacionado llamado:
 
 ```shell
-php bin/console debug:autowiring
+symfony console debug:autowiring
 ```
 
 Esto nos muestra todos los servicios que son autocableables, que es la técnica que utilizaremos para obtener servicios. Básicamente, es una lista simplificada de los servicios que es más probable que necesitemos.
@@ -533,7 +533,7 @@ Esto nos muestra todos los servicios que son autocableables, que es la técnica 
 La cuestión es: si queremos un *log* (registro) de algo, sólo tenemos que encontrar el servicio que hace ese trabajo. ¡De acuerdo! Vuelve a ejecutar el comando pero busca log:
 
 ```shell
-php bin/console debug:autowiring log
+symfony console debug:autowiring log
 ```
 
 ```php
@@ -905,7 +905,7 @@ Asset Mapper tiene dos grandes superpoderes:
 ### Listado de activos y ruta lógica
 
 ```shell
-php bin/console debug:asset
+symfony console debug:asset
 ```
 
 Creamos el directorio `assets/images/`.
@@ -945,7 +945,7 @@ composer require symfonycasts/tailwind-bundle
 Para este paquete, la receta no hace nada más que activar el nuevo bundle. Para poner en marcha Tailwind, una vez en tu proyecto, ejecuta:
 
 ```shell
-php bin/console tailwind:init
+symfony console tailwind:init
 ```
 
 Esto hace tres cosas.
@@ -959,7 +959,7 @@ Esto hace tres cosas.
 Por último, hay que compilar Tailwind, así que tenemos que ejecutar un comando para hacerlo:
 
 ```shell
-php bin/console tailwind:build -w
+symfony console tailwind:build -w
 ```
 
 ### Ver Tailwind en acción
@@ -1171,7 +1171,7 @@ y finalmente `show.html.twig`.
    Si copias los archivos (en lugar del contenido de los archivos), puede que el sistema de caché de Symfony no note el cambio y no veas el nuevo diseño. Si eso ocurre, borra la caché ejecutando:
 
    ```shell
-   php bin/console cache:clear.
+   symfony console cache:clear.
    ```
 
 ## 15. Twig Parciales y para bucles
