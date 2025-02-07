@@ -3,11 +3,18 @@
 namespace App\Repository;
 
 use App\Model\Starship;
+use Psr\Log\LoggerInterface;
 
 class StarshipRepository
 {
+    public function __construct(private LoggerInterface $loger)
+    {
+    }
+
     public function findAll(): array
     {
+        $this->loger->warning('MOLA');
+
         return [
             new Starship(
                 1,
