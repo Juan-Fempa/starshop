@@ -1,5 +1,24 @@
 # Starshop
 
+[01. Configurando nuestra App Symfony](01-configurando-nuestra-app-symfony)
+
+[02. Conociendo nuestro pequeño proyecto](02-conociendo-nuestro-pequeño-proyecto)
+
+[03. Rutas, controladores y respuestas](03-rutas-controladores-y-respuestas)
+
+[04. Recetas Flex Mágicas](04-recetas-flex-mágicas)
+[05. Twig y plantillas](05-twig-y-plantillas)
+[06. Herencia de plantillas Twig](06-herencia-de-plantillas-twig)
+[07. Depurando con el Asombroso Perfilador](07-depurando-con-el-asombroso-perfilador)
+[08. Creación de rutas API JSON](08-creación-de-rutas-api-json)
+[09. Los Servicios: La columna vertebral de todo](09-los-servicios-la-columna-vertebral-de-todo)
+[10. Crear tu propio Servicio](10-crear-tu-propio-servicio)
+[11. Rutas más sofisticadas: Requisitos, comodines y más](11-rutas-más-sofisticadas-requisitos-comodines-y-más)
+[12. Generar URLs](12-generar-urls)
+[13. CSS y JavaScript con Asset Mapper](13-css-y-javascript-con-asset-mapper)
+[14. Tailwind CSS](14-tailwind-css)
+[15. Twig Parciales y para bucles](15-twig-parciales-y-para-bucles)
+
 ## 01. Configurando nuestra App Symfony
 
 ### Lo que hace especial a Symfony
