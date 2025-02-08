@@ -34,7 +34,7 @@
 
 ## 01. Configurando nuestra App Symfony
 
-[Índice](#starshop)
+[🔝](#starshop)
 
 ### Lo que hace especial a Symfony
 
@@ -60,7 +60,7 @@ Lo detenemos con `CTRL+C`
 
 ## 02. Conociendo nuestro pequeño proyecto
 
-[Índice](#starshop)
+[⬆️](#starshop)
 
 ### Los 15 archivos de nuestro proyecto
 
@@ -544,9 +544,7 @@ class StarshipApiController extends AbstractController
 composer require serializer
 ```
 
-## 09. Los Servicios: La columna vertebral de todo
-
-[Índice](#starshop)
+## 09. Los Servicios: La columna vertebral de todo [Índice](#starshop)
 
 ### ¿Qué es un Servicio?
 
