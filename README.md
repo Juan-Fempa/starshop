@@ -32,6 +32,8 @@
 
 ## 01. Configurando nuestra App Symfony
 
+[Índice](#starshop)
+
 ### Lo que hace especial a Symfony
 
 ### Instalar el binario de Symfony
@@ -56,6 +58,8 @@ Lo detenemos con `CTRL+C`
 
 ## 02. Conociendo nuestro pequeño proyecto
 
+[Índice](#starshop)
+
 ### Los 15 archivos de nuestro proyecto
 
 ### ¿Dónde está Symfony?
@@ -71,6 +75,8 @@ composer install
 ### Los 2 directorios que te importan
 
 ## 03. Rutas, controladores y respuestas
+
+[Índice](#starshop)
 
 ### Creación del controlador
 
@@ -100,6 +106,8 @@ src/Controller/MainController.php
 
 ## 04. Recetas Flex Mágicas
 
+[Índice](#starshop)
+
 ### Alias Flex
 
 ### El sistema de recetas
@@ -123,6 +131,8 @@ php ./vendor/bin/php-cs-fixer fix
 ```
 
 ## 05. Twig y plantillas
+
+[Índice](#starshop)
 
 ### Instalación de Twig
 
@@ -288,6 +298,8 @@ Actualizamos la plantilla:
 
 ## 06. Herencia de plantillas Twig
 
+[Índice](#starshop)
+
 ### Ampliando el diseño base
 
 ```twig
@@ -352,6 +364,8 @@ Actualizamos `templates/main/homepage.html.twig`:
 
 ## 07. Depurando con el Asombroso Perfilador
 
+[Índice](#starshop)
+
 ### Instalar las herramientas de depuración
 
 ```shell
@@ -368,6 +382,8 @@ symfony console debug:twig
 ```
 
 ## 08. Creación de rutas API JSON
+
+[Índice](#starshop)
 
 ### Creación de la nueva Ruta y Controlador
 
@@ -528,6 +544,8 @@ composer require serializer
 
 ## 09. Los Servicios: La columna vertebral de todo
 
+[Índice](#starshop)
+
 ### ¿Qué es un Servicio?
 
 Un servicio es un objeto que hace un trabajo.
@@ -644,6 +662,8 @@ class StarshipApiController extends AbstractController
 Para acceder al perfilador de esta petición, cambia la URL a `/_profiler`.
 
 ## 10. Crear tu propio Servicio
+
+[Índice](#starshop)
 
 ### Crear la clase de servicio
 
@@ -824,6 +844,8 @@ Actualizamos `templates/main/homepage.html.twig`:
 
 ## 11. Rutas más sofisticadas: Requisitos, comodines y más
 
+[Índice](#starshop)
+
 ### Restringir el comodín a un número
 
 ```php
@@ -884,6 +906,8 @@ public function get(int $id, StarshipRepository $repository): Response
 
 ## 12. Generar URLs
 
+[Índice](#starshop)
+
 ### Crear la página Mostrar
 
 ### Crear la plantilla
@@ -906,6 +930,8 @@ El nombre podría ser cualquier cosa, pero ésta es la convención que yo sigo: 
 Nombrar una ruta nos permite generar una URL hacia ella. Para generar la URL, diré `{{ path() }}` y le pasaré el nombre de la ruta.
 
 ## 13. CSS y JavaScript con Asset Mapper
+
+[Índice](#starshop)
 
 ¿Qué pasa con las imágenes, CSS y JavaScript? ¿Cómo funciona eso en Symfony?
 
@@ -961,6 +987,8 @@ composer require symfony/asset
 ### Versionado automático de activos
 
 ## 14. Tailwind CSS
+
+[Índice](#starshop)
 
 ¿Qué pasa con el CSS? Eres libre de añadir el CSS que quieras a `app/styles/app.css`. Ese archivo ya está cargado en la página.
 
@@ -1205,6 +1233,8 @@ y finalmente `show.html.twig`.
    ```
 
 ## 15. Twig Parciales y para bucles
+
+[Índice](#starshop)
 
 ### Organizar en una Plantilla Parcial
 
