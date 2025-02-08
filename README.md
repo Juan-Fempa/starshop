@@ -30,6 +30,8 @@
 
 [15. Twig Parciales y para bucles](#15-twig-parciales-y-para-bucles)
 
+---
+
 ## 01. Configurando nuestra App Symfony
 
 [Índice](#starshop)
