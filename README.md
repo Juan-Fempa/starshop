@@ -1039,7 +1039,7 @@ symfony console tailwind:build -w
 # .symfony.local.yaml
 workers:
     tailwind:
-        cmd: ['symfony', 'console', 'tailwind', 'build', '--watch']
+        cmd: ['symfony', 'console', 'tailwind:build', '--watch']
 ```
 
 ### Copiar en plantillas estilizadas
