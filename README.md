@@ -38,7 +38,7 @@
 
 [19. Turbo: Tu aplicación de una sola página](#19-turbo-tu-aplicación-de-una-sola-página)
 
-[20. Maker Bundle: ¡Generemos algo de código!](#20-maker-bundle-¡generemos-algo-de-código)
+[20. Maker Bundle: ¡Generemos algo de código!](#20-maker-bundle-generemos-algo-de-código)
 
 ---
 
