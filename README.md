@@ -30,11 +30,21 @@
 
 [15. Twig Parciales y para bucles](#15-twig-parciales-y-para-bucles)
 
+[16. Enums PHP](#16-enums-php)
+
+[17. Métodos del modelo inteligente y dinamización del diseño](#17-métodos-del-modelo-inteligente-y-dinamización-del-diseño)
+
+[18. Stimulus: Escribir JavaScript profesional](#18-stimulus-escribir-javascript-profesional)
+
+[19. Turbo: Tu aplicación de una sola página](#19-turbo-tu-aplicación-de-una-sola-página)
+
+[20. Maker Bundle: ¡Generemos algo de código!](#20-maker-bundle-¡generemos-algo-de-código)
+
 ---
 
 ## 01. Configurando nuestra App Symfony
 
-[🔝](#starshop)
+[🔝](#starshop) [🌐](https://symfonycasts.com/es/screencast/symfony/setup)
 
 ### Lo que hace especial a Symfony
 
@@ -60,7 +70,7 @@ Lo detenemos con `CTRL+C`
 
 ## 02. Conociendo nuestro pequeño proyecto
 
-[🔝](#starshop)
+[🔝](#starshop) [🌐](https://symfonycasts.com/es/screencast/symfony/directories)
 
 ### Los 15 archivos de nuestro proyecto
 
@@ -78,7 +88,7 @@ composer install
 
 ## 03. Rutas, controladores y respuestas
 
-[🔝](#starshop)
+[🔝](#starshop) [🌐](https://symfonycasts.com/es/screencast/symfony/route-controller)
 
 ### Creación del controlador
 
@@ -108,7 +118,7 @@ src/Controller/MainController.php
 
 ## 04. Recetas Flex Mágicas
 
-[🔝](#starshop)
+[🔝](#starshop) [🌐](https://symfonycasts.com/es/screencast/symfony/flex-recipes)
 
 ### Alias Flex
 
@@ -134,7 +144,7 @@ php ./vendor/bin/php-cs-fixer fix
 
 ## 05. Twig y plantillas
 
-[🔝](#starshop)
+[🔝](#starshop) [🌐](https://symfonycasts.com/es/screencast/symfony/twig)
 
 ### Instalación de Twig
 
@@ -300,7 +310,7 @@ Actualizamos la plantilla:
 
 ## 06. Herencia de plantillas Twig
 
-[🔝](#starshop)
+[🔝](#starshop) [🌐](https://symfonycasts.com/es/screencast/symfony/twig-inheritance)
 
 ### Ampliando el diseño base
 
@@ -366,7 +376,7 @@ Actualizamos `templates/main/homepage.html.twig`:
 
 ## 07. Depurando con el Asombroso Perfilador
 
-[🔝](#starshop)
+[🔝](#starshop) [🌐](https://symfonycasts.com/es/screencast/symfony/profiler)
 
 ### Instalar las herramientas de depuración
 
@@ -385,7 +395,7 @@ symfony console debug:twig
 
 ## 08. Creación de rutas API JSON
 
-[🔝](#starshop)
+[🔝](#starshop) [🌐](https://symfonycasts.com/es/screencast/symfony/json-api)
 
 ### Creación de la nueva Ruta y Controlador
 
@@ -546,7 +556,7 @@ composer require serializer
 
 ## 09. Los Servicios: La columna vertebral de todo
 
-[🔝](#starshop)
+[🔝](#starshop) [🌐](https://symfonycasts.com/es/screencast/symfony/services)
 
 ### ¿Qué es un Servicio?
 
@@ -665,7 +675,7 @@ Para acceder al perfilador de esta petición, cambia la URL a `/_profiler`.
 
 ## 10. Crear tu propio Servicio
 
-[🔝](#starshop)
+[🔝](#starshop) [🌐](https://symfonycasts.com/es/screencast/symfony/create-service)
 
 ### Crear la clase de servicio
 
@@ -846,7 +856,7 @@ Actualizamos `templates/main/homepage.html.twig`:
 
 ## 11. Rutas más sofisticadas: Requisitos, comodines y más
 
-[🔝](#starshop)
+[🔝](#starshop) [🌐](https://symfonycasts.com/es/screencast/symfony/route-requirements)
 
 ### Restringir el comodín a un número
 
@@ -908,7 +918,7 @@ public function get(int $id, StarshipRepository $repository): Response
 
 ## 12. Generar URLs
 
-[🔝](#starshop)
+[🔝](#starshop) [🌐](https://symfonycasts.com/es/screencast/symfony/generate-urls)
 
 ### Crear la página Mostrar
 
@@ -933,7 +943,7 @@ Nombrar una ruta nos permite generar una URL hacia ella. Para generar la URL, di
 
 ## 13. CSS y JavaScript con Asset Mapper
 
-[🔝](#starshop)
+[🔝](#starshop) [🌐](https://symfonycasts.com/es/screencast/symfony/asset-mapper)
 
 ¿Qué pasa con las imágenes, CSS y JavaScript? ¿Cómo funciona eso en Symfony?
 
@@ -990,7 +1000,7 @@ composer require symfony/asset
 
 ## 14. Tailwind CSS
 
-[🔝](#starshop)
+[🔝](#starshop) [🌐](https://symfonycasts.com/es/screencast/symfony/tailwindcss)
 
 ¿Qué pasa con el CSS? Eres libre de añadir el CSS que quieras a `app/styles/app.css`. Ese archivo ya está cargado en la página.
 
@@ -1236,7 +1246,7 @@ y finalmente `show.html.twig`.
 
 ## 15. Twig Parciales y para bucles
 
-[🔝](#starshop)
+[🔝](#starshop) [🌐](https://symfonycasts.com/es/screencast/symfony/partials)
 
 ### Organizar en una Plantilla Parcial
 
@@ -1264,3 +1274,23 @@ De vuelta en `homepage.html.twig`, borra eso, y luego inclúyelo con `{{` - sint
     {% endfor %}
 </div>
 ```
+
+## 16. Enums PHP
+
+[🔝](#starshop) [🌐](https://symfonycasts.com/es/screencast/symfony/enums)
+
+## 17. Métodos del modelo inteligente y dinamización del diseño
+
+[🔝](#starshop) [🌐](https://symfonycasts.com/es/screencast/symfony/design)
+
+## 18. Stimulus: Escribir JavaScript profesional
+
+[🔝](#starshop) [🌐](https://symfonycasts.com/es/screencast/symfony/stimulus)
+
+## 19. Turbo: Tu aplicación de una sola página
+
+[🔝](#starshop) [🌐](https://symfonycasts.com/es/screencast/symfony/turbo)
+
+## 20. Maker Bundle: ¡Generemos algo de código!
+
+[🔝](#starshop) [🌐](https://symfonycasts.com/es/screencast/symfony/maker)
